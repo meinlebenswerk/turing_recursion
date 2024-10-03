@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "turing_recursion"
+version = "0.1.0"
+description = ""
+authors = ["Jan Eckert <jan.eckert@tum.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cocotb = "^1.9.1"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+tqdm = "^4.66.5"
+celluloid = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
